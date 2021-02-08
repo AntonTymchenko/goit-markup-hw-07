@@ -1,0 +1,46 @@
+@import "./utils/variables";
+@import "./components/header/header";
+@import "./components/header/logo";
+@import "./components/header/navigation";
+@import "./components/header/navLink";
+@import "./components/header/navInfoList";
+@import "./components/header/navInfo";
+//Hero
+@import "./components/hero/mainHero";
+@import "./components/hero/heroButton";
+//capabilities
+@import "./components/capabilities/capabilities";
+@import "./components/capabilities/capList";
+//occipation
+@import "./components/occupation/occupation";
+@import "./components/occupation/occupationList";
+@import "./components/occupation/divAfterImg";
+//ourTeam
+@import "./components/ourTeam/ourTeam";
+@import "./components/ourTeam/ourTeamList";
+@import "./components/ourTeam/svgTeamList";
+//clients
+@import "./components/clients/clients";
+@import "./components/clients/clientsListSvg";
+//footer
+@import "./components/footer/footer";
+@import "./components/footer/footerLogo";
+@import "./components/footer/studioAddresList";
+@import "./components/footer/studioAddresList";
+@import "./components/footer/joinSvg";
+@import "./components/footer/subscribe";
+//Modal
+@import "./components/modal/backDrop";
+@import "./components/modal/modalClosedBtn";
+@import "./components/modal/formModal";
+@import "./components/modal/inputModal";
+@import "./components/modal/textAreaModal";
+@import "./components/modal/policyCheckBox";
+@import "./components/modal/policyLink";
+@import "./components/modal/formModalBtn";
+//PORTFOLIO
+@import "./components/portfolio/portfolioPage";
+@import "./components/portfolio/btnPortfolio";
+@import "./components/portfolio/porfolioCardList";
+@import "./components/portfolio/overlayCard";
+@import "./components/portfolio/portfolioLink";

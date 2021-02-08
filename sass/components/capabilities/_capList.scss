@@ -1,0 +1,30 @@
+.capabilities-list {
+  display: flex;
+}
+.capabilities-item {
+  min-width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.capabilities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $linkNormalColor;
+
+  display: inline-block;
+  margin-bottom: 10px;
+}
+//icon division
+.icon-division {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $iconDivBgc;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

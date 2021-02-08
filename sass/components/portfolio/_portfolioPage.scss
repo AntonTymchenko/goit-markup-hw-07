@@ -1,0 +1,12 @@
+.gallery .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.button-list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.button-items:not(:last-child) {
+  margin-right: 8px;
+}

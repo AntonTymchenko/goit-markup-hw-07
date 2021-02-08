@@ -1,0 +1,51 @@
+.label-blank {
+  font-size: 12px;
+  line-height: 1.16;
+
+  letter-spacing: 0.01em;
+}
+
+.blank-input {
+  display: block;
+  width: 100%;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  padding: 14px 0 14px 42px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+
+  cursor: pointer;
+  transition: border-color 250ms $cubicBezier;
+  &:hover,
+  &:focus {
+    border-color: $akcentColor;
+  }
+}
+
+.relative-input {
+  position: relative;
+  width: 100%;
+
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+.icon-blank {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+
+  fill: #212121;
+  transition: fill 250ms $cubicBezier;
+  .blank-input:hover + &,
+  .blank-input:focus + & {
+    fill: $akcentColor;
+  }
+}

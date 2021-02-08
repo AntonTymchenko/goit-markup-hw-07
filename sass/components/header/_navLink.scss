@@ -1,0 +1,36 @@
+.navlink {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $linkNormalColor;
+
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+  height: 100%;
+  transition: color 250ms $cubicBezier;
+  &:hover,
+  &:focus {
+    color: $akcentColor;
+  }
+}
+//current line
+.current {
+  position: relative;
+  color: $akcentColor;
+}
+
+.current::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  border-radius: 2px;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: $akcentColor;
+}

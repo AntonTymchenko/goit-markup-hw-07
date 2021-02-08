@@ -1,0 +1,21 @@
+.occupation-list {
+  display: flex;
+}
+.occupation-item {
+  width: 370px;
+  height: 294px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.occupation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: $linkNormalColor;
+
+  display: block;
+  margin-bottom: 50px;
+}
