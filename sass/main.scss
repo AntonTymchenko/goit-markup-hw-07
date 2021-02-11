@@ -1,16 +1,6 @@
 @import "./base/variables";
 @import "./base/base";
 
-@import "./layout/capabilities";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/mainHero";
-@import "./layout/formModal";
-@import "./layout/occupation";
-@import "./layout/ourTeam";
-@import "./layout/portfolioPage";
-
 @import "./components/footerLogo";
 @import "./components/subscribe";
 @import "./components/backDrop";
@@ -21,3 +11,13 @@
 @import "./components/logo";
 @import "./components/overlayCard";
 @import "./components/porfolioCardList";
+
+@import "./layout/capabilities";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/mainHero";
+@import "./layout/formModal";
+@import "./layout/occupation";
+@import "./layout/ourTeam";
+@import "./layout/portfolioPage";
