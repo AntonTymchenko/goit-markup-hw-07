@@ -228,24 +228,6 @@ img {
   cursor: pointer;
 }
 
-.hero-button {
-  background-color: #2196f3;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 32px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  min-width: 200px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 1px solid #2196f3;
-}
-
 .webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -1120,5 +1102,23 @@ img {
 .card-text {
   font-size: 16px;
   line-height: 1.875;
+}
+
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 32px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
